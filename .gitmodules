@@ -1,0 +1,6 @@
+[submodule "joboonja-back"]
+	path = joboonja-back
+	url = https://github.com/soltanloo/joboonja-back.git
+[submodule "joboonja-front"]
+	path = joboonja-front
+	url = https://github.com/soltanloo/joboonja-front.git
