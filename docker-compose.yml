@@ -3,12 +3,14 @@ version: '3'
 services:
   client:
     build: ./joboonja-front/
+    image: soltanloo/joboonja-front
     ports:
       - "3000:80"
     depends_on:
       - server
   server:
     build: ./joboonja-back/
+    image: soltanloo/joboonja-back
     restart: always
     ports:
       - "8000:8080"
